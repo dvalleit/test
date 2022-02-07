@@ -13,4 +13,4 @@ jobs:
     steps: 
       - name: curl call to api
         run: |
-          curl -i -u dvalleit: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 https://api.github.com/users/octocat
+          curl -i -u dvalleit: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 https://api.github.com/users/octocat
