@@ -15,4 +15,4 @@ jobs:
         run: |
           curl \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/user/memberships/orgs
+            https://api.github.com/orgs/Blue-Express/dashboard
