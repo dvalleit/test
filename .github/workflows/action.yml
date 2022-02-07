@@ -15,4 +15,4 @@ jobs:
         run: |
           curl \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/users/bikotoru/contributions?to=2021-12-31
+            https://api.github.com/orgs/blue-express/members
