@@ -13,4 +13,4 @@ jobs:
     steps: 
       - name: curl call to api
         run: |
-          curl https://github.com/login/device/code
+          curl https://api.github.com/orgs/Blue-Express/repos?access_token=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
