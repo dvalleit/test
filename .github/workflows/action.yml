@@ -13,6 +13,6 @@ jobs:
     steps: 
       - name: curl call to api
         run: |
-          curl -H "Authorization: token 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" \
+          curl  \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/orgs/Blue-Express/members
