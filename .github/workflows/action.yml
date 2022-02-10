@@ -13,7 +13,4 @@ jobs:
     steps: 
       - name: curl call to api
         run: |
-          curl  \
-            -H "Accept: application/vnd.github.v3+json" \
-            -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
-            https://api.github.com/orgs/Blue-Express/members
+          gh api /repos/Blue-Express/bx-tmpl-springboot-ojdbc/environments
