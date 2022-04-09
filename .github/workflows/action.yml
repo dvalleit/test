@@ -12,5 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: curl call to api
-        run: |
-          gh api /repos/Blue-Express/bx-tmpl-springboot-ojdbc/environments
+        run: echo "HOLA"
